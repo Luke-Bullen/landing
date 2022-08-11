@@ -1,0 +1,21 @@
+.fa-brands {
+  color: white;
+  font-size: 40px;
+}
+
+.fa-brands:hover {
+  color: rgb(47,249,36);
+}
+
+.footer li {
+  display: inline-block;
+  padding: 0% 2%;
+  list-style: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: #2e2e2e;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}

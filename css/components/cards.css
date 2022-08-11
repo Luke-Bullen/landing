@@ -1,0 +1,39 @@
+.cards {
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-start;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  display: inline-block;
+  align-items: center;
+  justify-items:  end;
+  border-radius: 3px;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  text-align: center;
+  margin: 2% 0;
+  transition: background 2s linear;
+}
+.container h2 {
+  text-align: center;
+}
+
+.cards img {
+  width: 200px;
+  height: 100px;
+}
+
+.card:hover {
+  background: #9b9b9b;
+  cursor: pointer;
+}

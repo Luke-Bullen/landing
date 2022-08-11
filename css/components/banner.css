@@ -1,0 +1,37 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 80px;
+  display: block;
+  margin-bottom: 0px;
+
+}
+
+.banner p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  display: block;
+  margin: 20px 0;
+}
+
+.banner a {
+  color: white;
+  /* color: rgb(33, 232, 60); */
+  padding: 15px 25px;
+  border-radius: 15px;
+  background: #9b9b9b;
+  transition: background 0.3s ease;
+  display: inline-block;
+  margin: 20px 0px;
+}
+
+.banner a:hover {
+  background:#2e2e2e;
+  color: rgb(47,249,36);
+}
